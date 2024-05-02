@@ -1,0 +1,56 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* 
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+header {
+    background-color: #e79494;
+    height: 10vh;
+}
+
+nav {
+    background-color: midnightblue;
+}
+
+.a1 {
+    color: white;
+}
+
+main{
+    background-color: rgb(156, 156, 66);
+    flex-grow: 1;
+}
+
+main p:nth-child(2) {
+    background-color: #f0f;
+    outline: 5px solid green
+}
+
+.a2 {
+    color: whitesmoke;
+    padding: 1rem;
+    border: 2px solid black;
+    width: 100%;
+    display: inline-block;
+    /* The above property value, "inline-block" is good for turning a link into a button */
+    /* transition: all 1s 0.5s; */
+}
+
+a:hover {
+    background-color: #f00;
+}
+
+footer {
+    background-color: #5ff;
+    height: 10vh;
+}
+
